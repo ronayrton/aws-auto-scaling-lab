@@ -1,0 +1,1 @@
+# Script para instalar dependências (caso precise de CLI)

@@ -1,3 +1,5 @@
+# Saídas com detalhes como URL do Load Balancer
+
 output "load_balancer_dns" {
   description = "URL do Load Balancer"
   value       = aws_lb.my_lb.dns_name
