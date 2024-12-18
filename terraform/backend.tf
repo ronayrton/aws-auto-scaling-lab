@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "backend-s3.tf "
+    bucket = "backend-s3-tf-auto-scaling-lab"
     key    = "aws-auto-scaling-lab/terraform.tfstate"
     region = "us-east-1"
 
