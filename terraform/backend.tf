@@ -7,7 +7,7 @@ terraform {
     region = "us-east-1"
 
     # State Locking com DynamoDB
-    dynamodb_table = "terraform-state-locking"
+    dynamodb_table = "erraform-state-locking"
     encrypt        = true
   }
 }
