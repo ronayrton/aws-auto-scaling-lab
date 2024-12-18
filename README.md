@@ -72,3 +72,7 @@ git push -u origin main
 
 ## Conclusão
 Esse projeto, com todos os arquivos e scripts, pode ser executado localmente. Ele é totalmente automatizado com o Terraform , fácil de configurar e inclui uma documentação clara.
+
+
+
+Testes
