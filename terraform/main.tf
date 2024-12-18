@@ -98,4 +98,11 @@ resource "aws_autoscaling_policy" "scale_in" {
 }
 
 
+resource "aws_lb" "my_lb" {
+  name               = "my-lb"
+  internal           = false
+  load_balancer_type = "application"
+  security_groups    = [aws_security_group.sg.id]
+  subnets            = [aws_subnet.subnet1.id, aws_subnet.subnet2.id]
+}
 
